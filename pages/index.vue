@@ -1,5 +1,9 @@
 <template>
   <div class="grid">
-    <p>Now Playing:</p>
+    <SpotifyNowListening :data="nowPlayingData" />
   </div>
 </template>
+
+<script setup>
+const nowPlayingData = await $fetch('/api/now-playing');
+</script>
