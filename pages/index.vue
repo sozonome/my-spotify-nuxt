@@ -5,5 +5,5 @@
 </template>
 
 <script setup>
-const nowPlayingData = await $fetch('/api/now-playing');
+const nowPlayingData = await useFetch('/api/now-playing');
 </script>

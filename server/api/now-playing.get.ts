@@ -2,7 +2,7 @@ import {
   getSpotifyNowPlaying,
   transformNowPlayingResponse,
 } from "~~/composables/services/spotify/user/now-playing";
-import { GetNowPlayingTransformed } from "~~/composables/services/spotify/user/now-playing/types";
+import type { GetNowPlayingTransformed } from "~~/composables/services/spotify/user/now-playing/types";
 
 export default defineEventHandler(async (_) => {
   try {
