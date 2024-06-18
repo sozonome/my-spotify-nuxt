@@ -1,4 +1,4 @@
-import { getAccessToken } from "~~/composables/services/spotify/auth/getAccessToken";
+import { getAccessToken } from "@/composables/services/spotify/auth/getAccessToken";
 
 import type { GetNowPlayingResponse, GetNowPlayingTransformed } from "./types";
 

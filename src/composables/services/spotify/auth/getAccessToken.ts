@@ -3,7 +3,7 @@ import {
   SPOTIFY_CLIENT_ID,
   SPOTIFY_CLIENT_SECRET,
   SPOTIFY_REFRESH_TOKEN,
-} from "~~/composables/services/spotify/constants";
+} from "@/composables/services/spotify/constants";
 
 import type { GetAccessTokenResponse } from "./types";
 
